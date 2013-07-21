@@ -1,0 +1,25 @@
+﻿Build started Jan 30 2012 10:26:12 AM.
+     1>Project "C:\Users\Derek\documents\visual studio 2010\Projects\C++ Game\C++ Game\C++ Game.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Derek\documents\visual studio 2010\Projects\C++ Game\Release\".
+       InitializeBuildStatus:
+         Creating "Release\C++ Game.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Collision.cpp Image.cpp Jukebox.cpp Keyboard.cpp Main.cpp System.cpp
+         Collision.cpp
+     1>c:\users\derek\documents\visual studio 2010\projects\c++ game\c++ game\Collision.h(2): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Image.cpp
+     1>c:\users\derek\documents\visual studio 2010\projects\c++ game\c++ game\Image.h(2): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Jukebox.cpp
+     1>c:\users\derek\documents\visual studio 2010\projects\c++ game\c++ game\Jukebox.h(1): fatal error C1083: Cannot open include file: 'SDL_mixer.h': No such file or directory
+         Keyboard.cpp
+     1>c:\users\derek\documents\visual studio 2010\projects\c++ game\c++ game\System.h(2): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Main.cpp
+     1>Main.cpp(2): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         System.cpp
+     1>c:\users\derek\documents\visual studio 2010\projects\c++ game\c++ game\System.h(2): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+     1>Done Building Project "C:\Users\Derek\documents\visual studio 2010\Projects\C++ Game\C++ Game\C++ Game.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.23
